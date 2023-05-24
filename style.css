@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+
+}
+.nav {
+    background: black;
+    height: 30px;
+    width: 100%;
+}
+.nav ul{
+    float: left;
+    margin-right: 20px;
+}
+.nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 20px;
+}
+.nav ul li a{
+    color: white;
+    text-transform: none;
+    padding: 7px 13px;
+}
+a.active,a:hover{
+    background: rgb(212, 208, 208);
+    transition: .5s;
+}
+
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 10;
+    
+}
+logo {
+    background: white;
+    height: 0;
+    width: 0;
+    float: inline-start;;
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    background-color:#0056d2;
+    color: white;
+    border: bl;
+    outline: rgb(24, 23, 23);
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: medium; 
+    font-weight: bold;
+    cursor: pointer;
+}
+.button__text,
+.button__icon {
+ display: inline-flex;
+ align-items: center;
+ padding: 0 10px;
+ color: white;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.login-button {
+    font-size: 15px;
+    color: #0056d2;
+    padding: 3px 12px;
+    
+}
+.first-nav.left 
+.first-nav.right {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* .first-nav.right {
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between; 
+} */
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: medium;
+}
+
+.hero-section {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.image {
+    padding: 0;
+}
+
